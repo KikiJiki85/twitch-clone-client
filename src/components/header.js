@@ -14,6 +14,12 @@ const Header = () => {
         </Link>
         <GoogleAuth />
       </div>
+      <div className="right menu">
+        <Link to="/" className="item">
+          All Streams
+        </Link>
+        <GoogleAuth />
+      </div>
     </div>
   );
 };
